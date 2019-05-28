@@ -26,7 +26,7 @@ crossword_solution(V1, V2, H1, H2) :-
 has(john, peanut).
 owns(john, pet(dog, peanut)).
 
-% owns(john, pet(dog, X)).
+owns(john, pet(dog, X)).
 
 % facts
 soprano(anne).
@@ -42,10 +42,6 @@ upper_voice(S) :- tenor(S).
 lower_voice(S) :- alto(S).
 lower_voice(S) :- baritone(S).
 duet(S1, S2) :- upper_voice(S1), lower_voice(S2).
-
-% ?- upper_voice(S).
-
-
 
 /* 
 % ?- duet(S1, S2).

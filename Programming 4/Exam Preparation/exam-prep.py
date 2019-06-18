@@ -29,3 +29,13 @@ class CountToFive():
 
 count_to_five = CountToFive(1, 5)
 print(list(count_to_five))  # [1, 2, 3, 4, 5]
+
+# Write count_to_ten(min, max) code to get the desired output
+
+
+def count_to_ten(min, max):
+    pass
+
+
+nums_to_10 = [n for n in count_to_ten(1, 11)]
+print(nums_to_10)  # [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]

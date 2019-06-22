@@ -28,11 +28,11 @@ class CountToFive():
         return self
 
     def __next__(self):
-        if self.min > self.max:
+        self.min += 1
+        if (self.min > self.max):
             raise StopIteration
         else:
-            self.min += 1
-            return self.min - 1
+            return self.min
 
 
 count_to_five = CountToFive(1, 5)

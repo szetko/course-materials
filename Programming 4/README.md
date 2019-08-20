@@ -7,8 +7,8 @@
 | 1    | 22-07-2019 | Intro to C++ CLI               | Pointers                                   |
 | 2    | 29-07-2019 | File Structure                 | Event Loops                                |
 | 3    | 05-08-2019 | Linked Lists                   | Linked Lists                               |
-| 4    | 12-08-2019 | 2D Animation Algorithms 1      | 2D Animation Algorithms 2                  |
-| 5    | 19-08-2019 | Directional Sprites            | Double Buffering                           |
+| 4    | 12-08-2019 | 2D Animation Algorithm      | Double Buffering                 |
+| 5    | 19-08-2019 | Directional Sprites            | Dale's Day                           |
 | 6    | 26-08-2019 | Bound Actions                  | Tile Map                                   |
 | 7    | 02-09-2019 | Manual Scrolling Tile Map      | Sprite Scrolling Tile Map                  |
 | 8    | 09-09-2019 | NPC Scrolling Tile Map         | NPC Collision                              |

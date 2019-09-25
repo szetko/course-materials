@@ -1,0 +1,35 @@
+\mode<presentation>
+\RequirePackage{tgpagella}
+\useoutertheme[subsection=false,shadow]{miniframes}
+\useinnertheme{default}
+\usefonttheme{serif}
+\setbeamertemplate{footline} 
+{
+	\ifnum\c@framenumber=1
+	\else
+		\begin{beamercolorbox}[wd=0.95\paperwidth,right,dp=2ex]{page number}
+			\insertframenumber/\inserttotalframenumber
+		\end{beamercolorbox}
+	\fi
+	\begin{beamercolorbox}[colsep=1.25pt]{lower separation line foot}
+	\end{beamercolorbox}
+}
+\AtBeginSection[]
+{
+	\begin{frame}
+		\frametitle{Overview}
+		\tableofcontents[currentsection,hideothersubsections]
+	\end{frame}
+}
+\setbeamerfont{title like}{shape=\scshape}
+\setbeamerfont{frametitle}{shape=\scshape}
+\setbeamerfont{section in head/foot}{shape=\scshape,size=\tiny}
+\setbeamertemplate{navigation symbols}{}
+\setbeamercovered{transparent} 
+\definecolor{largebarcolor}{HTML}{26499d}
+\definecolor{smallbarcolor}{HTML}{97be3b}
+\setbeamercolor{lower separation line head}{bg=smallbarcolor} 
+\setbeamercolor{lower separation line foot}{bg=smallbarcolor} 
+\setbeamercolor{structure}{fg=black} 
+\setbeamercolor{palette tertiary}{bg=largebarcolor} 
+\mode<all>

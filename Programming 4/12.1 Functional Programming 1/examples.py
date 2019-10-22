@@ -40,6 +40,12 @@ def odd_characters_only(word):
 
 repeat_word_six_times(odd_characters_only, 'Hello')
 
+# el
+# el
+# el
+# el
+# el
+
 
 def odd_characters_only(word):
     return word[1::2]
@@ -129,13 +135,17 @@ print(closure(2))  # 10
 # Lambda
 lambda num_one, num_two: num_one * num_two
 
-times_three = lambda x: x * 3
 
-print(times_three(3)) # 9
+def times_three(x): return x * 3
+
+
+print(times_three(3))  # 9
+
 
 def show_three_times(worker):
     for i in range(3):
         print(worker(i))
+
 
 show_three_times(times_three)
 # 0
@@ -151,5 +161,5 @@ what_is_the_output = filter(lambda x: not x % 2 == 0, range(20))
 what_is_the_output_two = reduce(
     lambda x, y: x + y, filter(lambda z: not z % 2 == 0, range(20)))
 
-print(list(what_is_the_output))
+print(list(what_is_the_output))  # [1, 3, 5, 7, 9, 11, 13, 15, 17, 19]
 print(what_is_the_output_two)  # 100

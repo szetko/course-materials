@@ -37,7 +37,6 @@ public:
 	double ComputeDistance(Thing^ otherGuy);
 
 	bool GetIsAlive()					{ return isAlive; }
-
 	void SetIsAlive(bool a)				{ isAlive = a; }
 	void Setlocation(Point newlocation)	{ location = newlocation; }
 };

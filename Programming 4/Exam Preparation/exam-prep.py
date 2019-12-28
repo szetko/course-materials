@@ -49,3 +49,27 @@ def count_to_ten(min, max):
 
 nums_to_10 = [n for n in count_to_ten(1, 11)]
 print(nums_to_10)  # [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+sample_str = 'Hello 12345 World'
+numbers = []
+for x in sample_str:
+    if x.isdigit():
+        numbers.append(x)
+
+print("IsDigit" + str(numbers))
+
+is_digit = [x for x in sample_str if x.isdigit()]
+print(is_digit)
+
+nums = [1, 2, 3, 4]
+numbers = []
+for n in nums:
+    numbers.append(n**2)
+print(numbers)
+
+x = [n**2 for n in nums]
+print(x)
+
+longWords = map(lambda x: x, filter(lambda x: x.isdigit(), sample_str))
+# longWords = map(lambda x: x.isdigit(),  sample_str)
+print(list(longWords))

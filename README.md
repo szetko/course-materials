@@ -3,9 +3,9 @@
 Lecturer at Otago Polytechnic, Dunedin, New Zealand.
 
 ## Second-Year Courses:
-- Intermediate Application Development (JavaScript & Python)
-- Programming Four (C++, Python & Go)
+- Intermediate Application Development JavaScript/React & Python/Flask
+- Programming Four - Visual C++ & Python
 
 ## Third-Year Courses:
-- Mobile Application Development (Kotlin)
-- Object-Oriented System Development (Python)
+- Design & Development of Applications for Mobile Devices - Kotlin
+- Object-Oriented System Development - Python/Django

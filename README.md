@@ -1,4 +1,4 @@
-# course-materials
+# Bachelor of Information Technology Course Material
 
 Lecturer at Otago Polytechnic, Dunedin, New Zealand.
 

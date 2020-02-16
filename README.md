@@ -2,13 +2,13 @@
 
 Lecturer at Otago Polytechnic, Dunedin, New Zealand. 
 
-# List of courses I currently teach:
+## List of courses I currently teach:
 
-## Second-Year Courses:
+### Second-Year Courses:
 - Intermediate Application Development JavaScript/React & Python/Flask
 - Programming Four - Visual C++ & Python
 - Special Topic - Python/Flask
 
-## Third-Year Courses:
+### Third-Year Courses:
 - Design & Development of Applications for Mobile Devices - Kotlin
 - Object-Oriented System Development - Python/Django

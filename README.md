@@ -1,8 +1,6 @@
 # Bachelor of Information Technology Course Material
 
-Lecturer at Otago Polytechnic, Dunedin, New Zealand. 
-
-## List of courses I currently teach:
+Lecturer at Otago Polytechnic, Dunedin, New Zealand.
 
 ### Second-Year Courses:
 - Intermediate Application Development JavaScript/React & Python/Flask
